@@ -12,16 +12,7 @@
         <title>Read Text</title>
     </head>
     <body>
-        <%
-            BufferedReader reader = new BufferedReader(new FileReader("test.txt"));
-            StringBuilder sb = new StringBuilder();
-            String line;
-
-            while((line = reader.readLine())!= null){
-                sb.append(line+"\n");
-            }
-	    out.println(sb.toString());
-        %>
+      <%= getServletContext().getRealPath("/") %> 
 
     </body>
 </html>
