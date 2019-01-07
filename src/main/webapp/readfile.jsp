@@ -13,8 +13,6 @@
     </head>
     <body>
         <%
-            String jspPath = "C:\\log\\";
-            String fileName = "log.txt";
             String txtFilePath = jspPath + fileName;
             BufferedReader reader = new BufferedReader(new FileReader(/opt/git-project/hello-world-war/src/main/webapp/test.txt));
             StringBuilder sb = new StringBuilder();
