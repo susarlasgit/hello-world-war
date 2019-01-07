@@ -13,6 +13,15 @@
     </head>
     <body>
       <%= getServletContext().getRealPath("/") %> 
+      <%
+            BufferedReader reader = new BufferedReader(new FileReader("/opt/apache-tomcat-9.0.14/webapps/hello-world-war/test.txt"));
+            StringBuilder sb = new StringBuilder();
+            String line;
+            while((line = reader.readLine())!= null){
+                sb.append(line+"\n");
+            }
+	    out.println(sb.toString());
+        %>
 
     </body>
 </html>
