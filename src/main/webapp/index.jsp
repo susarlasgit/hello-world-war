@@ -13,4 +13,7 @@
 	<p>
 	     From Tomcat-server
 	     <%= request.getLocalAddr() %></p>
+	<p>
+		Thank you!
+	<p>
 </body>
