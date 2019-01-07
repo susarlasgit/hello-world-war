@@ -13,7 +13,7 @@
     </head>
     <body>
         <%
-            BufferedReader reader = new BufferedReader(new FileReader("/opt/git-project/hello-world-war/src/main/webapp/test.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("test.txt"));
             StringBuilder sb = new StringBuilder();
             String line;
 
