@@ -11,11 +11,9 @@
 		You are coming from 
 		<%= request.getRemoteAddr()  %></p>
 	<p>
-	     From Tomcat-server
+	     You are on Tomcat-server
 	     <%= request.getLocalAddr() %></p>
-	<p>
-               <a href="readfile.jsp">Please see this link</a> 
-	<p>
+
 		Thank you!
 	<p>
 </body>
